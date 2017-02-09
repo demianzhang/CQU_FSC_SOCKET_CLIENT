@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearlayout"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal"
+	android:paddingLeft="20dp" >
+
+	<LinearLayout
+		android:id="@+id/lyaout"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+		<ImageView
+		    android:id="@+id/imageView1"
+		    android:layout_width="300dp"
+		    android:layout_height="130dp"
+		    android:layout_gravity="center"
+		    android:src="@drawable/logo" />
+
+		<LinearLayout
+		  android:layout_width="300dp"
+			android:layout_height="45dp"
+		    android:orientation="horizontal" >
+
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="40dp"
+			    android:text="@string/string2"
+			    android:textColor="#ffffff"
+			    android:textSize="25sp" />
+
+		    <TextView
+		        android:id="@+id/textViewReceive2"
+		       android:layout_width="120dp"
+				android:layout_height="35dp"
+		        android:textColor="#ffffff"
+		        android:textSize="30sp"
+		        android:textStyle="bold|italic" />
+
+		    <TextView
+		        android:id="@+id/danwei2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="30dp"
+		        android:text="@string/danwei2"
+		        android:textColor="#ffffff"
+		        android:textSize="25sp" />
+
+		</LinearLayout>
+
+			<LinearLayout
+			android:layout_width="300dp"
+			android:layout_height="45dp"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:id="@+id/textView6"
+				android:layout_width="wrap_content"
+				android:layout_height="40dp"
+				android:text="@string/string6"
+				android:textColor="#ffffff"
+				android:textSize="25sp"
+				/>
+
+			<TextView
+				android:id="@+id/textViewReceive6"
+				android:layout_width="107dp"
+				android:layout_height="45dp"
+				android:textColor="#ffffff"
+				android:textSize="30sp"
+				android:textStyle="bold|italic" />
+
+			<TextView
+				android:id="@+id/danwei6"
+			    android:layout_width="wrap_content"
+				android:layout_height="30dp"
+				android:text="@string/danwei3"
+				android:textColor="#ffffff"
+				android:textSize="25sp" />
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="300dp"
+			android:layout_height="45dp"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:id="@+id/textView4"
+				android:layout_width="wrap_content"
+				android:layout_height="40dp"
+				android:text="@string/string4"
+				android:textColor="#ffffff"
+				android:textSize="25sp" />
+
+			<TextView
+				android:id="@+id/textViewReceive4"
+				android:layout_width="130dp"
+				android:layout_height="35dp"
+				android:textColor="#ffffff"
+				android:textSize="30sp" />
+
+			<TextView
+				android:id="@+id/danwei4"
+				android:layout_width="wrap_content"
+				android:layout_height="30dp"
+				android:text="@string/danwei4"
+				android:textSize="25sp"
+				android:textColor="#ffffff" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="300dp"
+			android:layout_height="45dp"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:id="@+id/textView5"
+				android:layout_width="wrap_content"
+				android:layout_height="40dp"
+				android:text="@string/string5"
+				android:textColor="#ffffff"
+				android:textSize="25sp" />
+
+			<TextView
+				android:id="@+id/textViewReceive5"
+				android:layout_width="135dp"
+				android:layout_height="45dp"
+				android:textColor="#ffffff"
+				android:textSize="30sp"
+				android:textStyle="italic" />
+
+			<TextView
+				android:id="@+id/danwei5"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:text="@string/danwei5"
+				android:textColor="#ffffff"
+				android:textSize="25sp" />	
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="300dp"
+			android:layout_height="45dp"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="wrap_content"
+				android:layout_height="40dp"
+				android:layout_gravity="bottom"
+				android:text="@string/string1"
+				android:textColor="#ffffff"
+				android:textSize="25sp" />
+
+			<TextView
+				android:id="@+id/textViewReceive1"
+				android:layout_width="100dp"
+				android:layout_height="35dp"
+				android:layout_gravity="bottom"
+				android:textColor="#ffffff"
+				android:textSize="30sp" />
+
+			<TextView
+				android:id="@+id/danwei1"
+				android:layout_width="wrap_content"
+				android:layout_height="30dp"
+				android:layout_gravity="bottom"
+				android:text="@string/danwei1"
+				android:textColor="#ffffff"
+				android:textSize="25sp" />
+		</LinearLayout>
+			
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="320dp"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+          <TextView
+				android:layout_width="130dp"
+				android:layout_height="60dp"
+				android:layout_gravity="bottom"
+				android:textColor="#ffffff"
+				android:textSize="60sp" />
+
+		<com.example.cqu_fsc_socket_client.OilView
+			android:id="@+id/view1"
+			android:layout_width="320dp"
+			android:layout_height="279dp" />
+	
+	</LinearLayout>
+</LinearLayout>
